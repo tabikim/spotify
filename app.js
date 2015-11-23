@@ -1,5 +1,4 @@
 var data;
-var playlistData;
 var baseUrl = 'https://api.spotify.com/v1/search?type=track&query='
 var playlistUrl = 'https://api.spotify.com/v1/browse/featured-playlists'
 var myApp = angular.module('myApp', ['firebase'])

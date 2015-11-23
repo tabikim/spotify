@@ -1,6 +1,7 @@
 body {
   padding:10px;
-  background-color: gray;
+  background-image: url("http://eyesonmiami.com/wp-content/uploads/2013/11/eom-background4.jpg");
+  background-size: cover;
   color: white;
 }
 body span {
@@ -14,6 +15,7 @@ header {
 
 h1 {
 	font-size: 50px;
+	text-shadow: 0 0 15px black;
 }
 
 header #logout { 
