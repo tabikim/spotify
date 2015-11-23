@@ -36,7 +36,7 @@
 			<!-- <span class="fa fa-twitter fa-2x"></span> -->
 			<div class="log-out" id="logout" ng-show="userId">
 				<span>{{users[userId].handle}}</span>
-				<button ng-click="logOut()" class="btn btn-warning">Logout</button>
+				<button ng-click="logOut()" class="btn btn-success">Logout</button>
 			</div>
 		</header>
 
@@ -57,8 +57,8 @@
 
 				<!-- Submit buttons: should only be active if certain inputs are valid -->
 				<div class="form-group">
-					<button ng-click="register()" ng-disabled="myForm.$invalid" type="submit" class="btn btn-primary">Register</button> 
-					<button ng-click="signIn()" ng-disabled="myForm.email.$invalid || myForm.password.$invalid" type="submit" class="btn btn-primary">Login</button>
+					<button ng-click="register()" ng-disabled="myForm.$invalid" type="submit" class="btn btn-success">Register</button> 
+					<button ng-click="signIn()" ng-disabled="myForm.email.$invalid || myForm.password.$invalid" type="submit" class="btn btn-success">Login</button>
 				</div>
 		</form>	
 
